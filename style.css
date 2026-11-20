@@ -63,3 +63,16 @@ summary:focus-visible {
   border: 5px solid brown;
   outline: none;
 }
+
+/* ===== Questions de recul ===== */
+
+/* 1. En html il faudrait un bouton pour chaque question (à la place de summary) et une div avec un p à l'intérieur pour la réponse à la question. 
+
+En css il faut une classe .cache{display: none} par exemple qui est présente sur l'élément div. Ainsi à l'affichage la div est masquée.
+
+Ensuite avec le javascript on gère l'affichage ou non de la div de réponse avec un addEventListener("click", ()=>{}) sur le bouton qui va ajouter ou supprimer la classe .cache sur la div (avec la méthode de classList .toggle("cache") */
+
+/* 2. Pour la sémantique je pense. Car le mettre en deuxième enfant après le <p> ne change rien à l'ordre d'affichage*/
+
+/* 3. Dans adapage pourquoi pas, on pouvait l'intégrer pour faire une faq sur la personne choisie.  
+ */
